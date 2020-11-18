@@ -85,6 +85,7 @@ intall `oc` client
     * Log into the Web UI
 3. Create a project/namespace that matches your name
 first initial + last name e.g. Timothy Allen = tallen
+    * Run `oc new-project <myname>`
 
 create and understand basic kubernetes resources
 ------------------------------------------------
