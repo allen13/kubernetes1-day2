@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app:
+  name:
+spec:
+  ports:
+  - name: web
+    port:
+    protocol: TCP
+    targetPort:
+  selector:
+    app:
+  sessionAffinity: None
+  #Pick from below
+  type:
+
+# Types of Kubernetes services
+# There are four types of Kubernetes services:
+
+# 1. ClusterIP. This default type exposes the service on a cluster-internal IP. You can reach the service only from within the cluster.
+# 2. NodePort. This type of service exposes the service on each node’s IP at a static port. A ClusterIP service is created automatically, and the NodePort service will route to it. From outside the cluster, you can contact the NodePort service by using “<NodeIP>:<NodePort>”.
+# 3. LoadBalancer. This service type exposes the service externally using the load balancer of your cloud provider. The external load balancer routes to your NodePort and ClusterIP services, which are created automatically.
+# 4. ExternalName. This type maps the service to the contents of the externalName field (e.g., foo.bar.example.com). It does this by returning a value for the CNAME record.

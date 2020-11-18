@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name:
+  labels:
+    app:
+spec:
+  replicas:
+  selector:
+    app:
+  template:
+    metadata:
+      name:
+      labels:
+        app:
+    spec:
+      containers:
