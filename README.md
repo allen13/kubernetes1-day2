@@ -37,6 +37,7 @@ Node Components
 
 Links
 * [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
+* [Overview of Kube Components](https://medium.com/@karthikeyan_krishnaswamy/overview-of-kubernetes-34d8e0e59b26)
 
 pods
 ----
