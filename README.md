@@ -95,20 +95,16 @@ Fill in the missing information for each resource
 
 Fill in the pod.
 
-    oc apply -f pod.yml
+    kubectl apply -f pod.yml
 
 Fill in and apply the service to target the pod.
 
-    oc apply -f svc.yml
-
-Create a route that targets the service and exposes it to the outside world. You should be able to navigate to your app after this.
-
-    oc apply -f route.yml
+    kubectl apply -f svc.yml
 
 Fill in and apply the replication controller.
 
-    oc apply -f replicationcontroller.yml
+    kubectl apply -f replicationcontroller.yml
 
 Fill in and apply the Deployment
 
-    oc apply -f deployment.yml
+    kubectl apply -f deployment.yml
