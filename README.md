@@ -13,7 +13,7 @@ Topics
 phippy goes to the zoo
 ----------------------
 
-[Part 2 of Phippy's Journey](https://www.cncf.io/phippy-goes-to-the-zoo-book/)
+[Part 2 of Phippy's Journey](https://www.cncf.io/phippy/phippy-goes-to-the-zoo-book/)
 
 kubernetes components
 ---------------------
